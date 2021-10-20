@@ -1,0 +1,39 @@
+element{
+    position: ;
+    top,bottom: ;
+    left, right: ;
+    content: ;
+
+    height: ;
+    width: ;
+    border: ; 
+    border-radius: ;
+
+    margin: ;
+    padding: ;
+
+    display: ;
+    flex-direction: ;
+    justify-content: ;
+    align-items: ;
+
+    background-color: ;
+    background-image: ;
+    background-size: ;
+
+    color: ;
+    font-size: ;
+    font-weight: ;
+    line-height: ;
+    letter-spacing: ;
+    text-align: ;
+    font-family: ;
+    text-transform: ;
+    text-decoration: ;
+
+    z-index: ;
+    transition: ;
+    transform: ;
+    animation: ;
+
+}
