@@ -7,6 +7,10 @@
 
     --dark-grey: #212529;
     --light-gey: #2d3338;
+
+    --git-icon: #4078c0;
+    --linkedin-icon: #00a0dc;
+
   }
 
 
@@ -122,6 +126,18 @@ nav a:hover::after{
 
 .link-bar a{
     margin-left: 15px;
+}
+
+.link-bar i{
+    transition: all 0.4s ;
+}
+
+.devicon-github-plain:hover{
+    color: var(--git-icon);
+}
+
+.devicon-linkedin-plain:hover{
+    color: var(--linkedin-icon)
 }
 
 header img{
@@ -258,21 +274,35 @@ main{
 }
 
 
-.box i{
+.box-icon{
     height: 70px;
     width: 70px;
     border: var(--light-blue) solid 3px;
 
     margin-bottom: 25px;
 
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     transition: all 0.2s;
 }
 
-.box i:hover{
+.box-icon:hover{
     transform: rotate(45deg);
 }
+
+.box-icon i{
+    color: var(--light-blue);
+    font-size: 40px;
+    transition: all 0.2s;
+
+}
+
+.box-icon:hover i{
+    transform: rotate(-45deg);
+}
+
 
 main.portfoliopage{
     width: 85%;
@@ -422,6 +452,10 @@ textarea{
 
 footer{
     width: 100%;
+}
+
+footer img{
+    height: 0.9em ;
 }
 
 .copyright-text{
