@@ -4,7 +4,7 @@ Tablette : between 600 and 1024 pixels (in portrait mode)
 Mobile : between 320 and 600 pixels (in portrait mode)
  */
 
- @media (max-width:320px)  {
+ @media (max-width:481px)  {
 
     html, body{
         margin: 0;
