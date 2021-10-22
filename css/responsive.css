@@ -4,47 +4,105 @@ Tablette : between 600 and 1024 pixels (in portrait mode)
 Mobile : between 320 and 600 pixels (in portrait mode)
  */
 
- @media (max-width:481px)  {
-
+ @media (max-width:320px)  {
     html, body{
         margin: 0;
         padding: 0;
     }
-
     header.secondpage{
         height: 20vh;
     }
-
-
-
     .services{
         flex-direction: column;
         padding: 0;
     }
-
     .cv-btn{
         margin-bottom: 50px;
     }
-
     .col{
         width: 100%;
     }
-
     .col .line{
         width: 80%;
         height: 2px;
         margin: 0 auto;
     }
-
     .box{
         margin: 0 10px 40px;
         text-align: center;
     }
-
     .box .box-icon{
         margin: 0 auto 15px;
     }
+    .portfolio-box{
+        flex-direction: column-reverse;
+        padding: 0 0 15px 0;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .portfolio-box:nth-child(2n){
+        flex-direction: column-reverse;
+    }
+    .portfolio-img{
+        margin: 0 auto;
+    }
+    .portfolio-box div{
+        width: 90%;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact{
+        margin-bottom: 15px;
+    }
+    .form{
+        width: 90%;
+    }
+    input{
+        width: auto;
+    }
+    textarea{
+        width: auto;
+    }
+    footer{
+        margin-top: 10px;
+    }
+    .copyright-text{
+        margin: 0 15px 10px;
+    }
+}
 
+ @media (max-width:481px)  { 
+    html, body{
+        margin: 0;
+        padding: 0;
+    }
+    header.secondpage{
+        height: 20vh;
+    }
+    .services{
+        flex-direction: column;
+        padding: 0;
+    }
+    .cv-btn{
+        margin-bottom: 50px;
+    }
+    .col{
+        width: 100%;
+    }
+    .col .line{
+        width: 80%;
+        height: 2px;
+        margin: 0 auto;
+    }
+    .box{
+        margin: 0 10px 40px;
+        text-align: center;
+    }
+    .box .box-icon{
+        margin: 0 auto 15px;
+    }
     .portfolio-box{
         flex-direction: column-reverse;
         padding: 0 0 15px 0;
@@ -53,62 +111,36 @@ Mobile : between 320 and 600 pixels (in portrait mode)
         margin-bottom: 20px;
 
     }
-
     .portfolio-box:nth-child(2n){
         flex-direction: column-reverse;
-
     }
-
     .portfolio-img{
         margin: 0 auto;
     }
-
-
     .portfolio-box div{
         width: 90%;
     }
-
-
-
-
     .contact-container{
         flex-direction: column;
     }
-
     .contact{
         margin-bottom: 15px;
     }
-
     .form{
         width: 90%;
     }
-
     input{
         width: auto;
     }
-    
     textarea{
         width: auto;
     }
-
     footer{
         margin-top: 10px;
     }
-
     .copyright-text{
         margin: 0 15px 10px;
-    }
-
-
-
-
-
-
-
-}
-
- @media (min-width:481px)  { 
-     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    } 
 }
 
 @media (min-width:641px)  { 
