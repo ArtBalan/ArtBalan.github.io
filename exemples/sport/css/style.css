@@ -1,0 +1,284 @@
+@font-face {
+    font-family: "LiberationSans-bold" ;
+    src: url(../fonts/LiberationSans-Bold-webfont.ttf);
+}
+
+@font-face {
+    font-family: "LiberationSans-regular";
+    src: url(../fonts/LiberationSans-Regular-webfont.ttf);
+}
+
+body{
+    font-family: "LiberationSans-regular";
+    font-size: 16px;
+    background-color: #000;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+}
+
+header h1{
+    font-family: "LiberationSans-bold";
+    font-weight: 300;
+    font-size: 22px;
+}
+
+header span{
+    color: rgb(234,159,6);
+}
+
+header .box{
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header h2{
+    font-weight: 400;
+}
+
+header nav{
+    margin-bottom: 15px;
+
+}
+
+header a{
+    color: #000;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+main{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header-page-img{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.product-section{
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 30%;
+    margin: 25px 25px;
+    position: relative;
+}
+
+.product img{
+    width: 100%;
+}
+
+.product h4{
+    text-align: center;
+    text-transform: uppercase;
+    height: 2em;
+    padding-top: 0.9em;
+    margin: 0;
+    background-color: #eee;
+}
+
+.pourcentage{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    transform: translateX(50%);
+
+    padding: 5px 12px 4px;
+    font-family: "LiberationSans-bold";
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: rgb(234,159,6);
+
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main a{
+    padding: 5px 40px;
+    background-color: #000;
+    color: #eee;
+    text-decoration: none;
+}
+
+.product p{
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.product .prix{
+    position: relative;
+}
+
+.product .prix::before{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+}
+
+.product .promo{
+    color: rgb(234,159,6);
+}
+
+footer{
+    background-color:rgb(54, 54, 54);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
+}
+
+footer nav{
+    width: 50%;
+    padding: 8px 15px;
+    transform: translateY(-50%);
+
+    background-color: #fff;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer nav a{
+    text-decoration: none;
+    color:#000;
+}
+
+.dot{
+    height: 12px;
+    width: 12px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+footer .box{
+    text-align: center;
+    color: #eee;
+    font-size: 0.8em;
+    margin: 0 25px;
+}
+
+.bar-grise{
+    margin-top: 15px;
+    content:"";
+    background-color: grey;
+    width: 100%;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.media-nav{
+    width: 25%;
+
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer p{
+    color: #eee;
+}
+
+@media screen and (max-width:576px) {
+    
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .box{
+        width: 100%;
+    }
+
+    header img{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    header h1{
+        text-align: center;
+    }
+
+    header h2{
+        margin-left: 25px ;
+        text-align: start;
+    }
+
+    header nav{
+        justify-content: space-between;
+        width: 100%;
+        text-align: start;
+    }
+    header nav a{
+        padding-left: 0;
+        margin: 0 25px ;
+    }
+    
+    main{
+        width: 95%;
+    }
+
+    .product-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product{
+        width: 70%;
+    }
+
+    footer nav{
+        width: 90%;
+    }
+
+    footer .row{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    footer .row .box{
+        width: 38%;
+    }
+
+    .media-nav{
+        width: 45%;
+    }
+
+    footer p{
+        font-size: 0.8em;
+    }
+
+
+}

@@ -44,7 +44,6 @@
     </header>
 
     <main>
-
         <div class="contact-container">
             <div class="contact">
                 <div class="logo">

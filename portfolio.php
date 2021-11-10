@@ -29,10 +29,10 @@
             <div class=" logo"> ArtBaLan
             </div>
             <nav>
-                <a href="index.html">Home</a>
+                <a href="index.php">Home</a>
                 <a href="#">About</a>
                 <a href="#">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <a href="contact.php">Contact</a>
             </nav>
             <ul class="link-bar">
                 <a href="#"><i class="devicon-linkedin-plain"></i></a>
@@ -48,7 +48,7 @@
         <div class="portfolio-box">
             <div class="portfolio-desc">
                 <h3>Oupsilon</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolorum id dolore, omnis praesentium recusandae ad excepturi possimus itaque sapiente ex. Labore eius amet repellendus iste, minus alias ea optio.</p>
+                <p>Site réaliser avec Bootstrap bien avant que je m'interese au développement web. Le but était de réaliser un site pour soutenir un projet de jeux vidéo.</p>
                 <a href="http://oupsilon.free.fr/">Oupsilon.free.fr</a>
             </div>
             <div class="portfolio-img">
@@ -57,12 +57,22 @@
         </div>
         <div class="portfolio-box">
             <div class="portfolio-desc">
-                <h3>Oupsilon</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolorum id dolore, omnis praesentium recusandae ad excepturi possimus itaque sapiente ex. Labore eius amet repellendus iste, minus alias ea optio.</p>
-                <a href="http://oupsilon.free.fr/">Oupsilon.free.fr</a>
+                <h3>Sport.com</h3>
+                <p>Exemple de site réaliser au début de ma fomation. Fait "from scratch" en HTML et CSS.</p>
+                <a href="exemples/sport/index.html" target="_blank">Voir l'exemple</a>
             </div>
             <div class="portfolio-img">
-                <img src="img/oupsilon.PNG" alt="Image du site web oupsilon">
+                <img src="img/sport.png" alt="Image du site web sport.com">
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <div class="portfolio-desc">
+                <h3>Sport.com</h3>
+                <p>Autre exemple. Fait "from scratch" en HTML et CSS.</p>
+                <a href="exemples/trafalgar/index.html" target="_blank">Voir l'exemple</a>
+            </div>
+            <div class="portfolio-img">
+                <img src="img/sport.png" alt="Image du site web oupsilon">
             </div>
         </div>
     </main>
