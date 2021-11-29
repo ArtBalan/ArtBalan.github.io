@@ -1,43 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+include "inc/init.inc.php";
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Balandreau Arthur</title>
-
-    <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-
-    <!-- Text font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-
-    <!-- Icon font -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
-</head>
-
+include "inc/header.inc.php";
+?>
 <body>
 
     <!-- HEADER -->
     <header class="mainpage">
         <div class="bar">
-            <div class=" logo"> ArTbaLan
+            <div class=" logo"> ArtDev
             </div>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.php">Contact</a>
+                <a href="index.php" <?php echo ($currentPage == 'index.php')? "class='active'" : ""; ?> >Home</a>
+                <a href="about.php" <?php echo ($currentPage == 'about.php')? "class='active'" : ""; ?>>A propos</a>
+                <a href="portfolio.php" <?php echo ($currentPage == 'portfolio.php')? "class='active'" : ""; ?>>Portfolio</a>
+                <a href="contact.php" <?php echo ($currentPage == 'contact.php')? "class='active'" : ""; ?>>Contact</a>
             </nav>
             <ul class="link-bar">
-                <a href="#"><i class="devicon-linkedin-plain"></i></a>
+                <a href="https://fr.linkedin.com/in/arthur-balandreau-b3a752220"><i class="devicon-linkedin-plain"></i></a>
                 <a href="https://github.com/ArtBalan" target="blank"><i class="devicon-github-plain"></i></a>
             </ul>
         </div>
@@ -59,11 +39,11 @@
     <div class="services">
         <div class="col">
             <div class="box">
-                <h3>My services</h3>
-                <h1>Who am I ?</h1>
+                <h3>Mes services</h3>
+                <h1>Qui suis-je ?</h1>
                 <div class="line"></div>
-                <p>Mordu d'informatique depuis plus de 5 ans, je me spécialise dans le développement web au sein de l'école Webforce 3 à Paris. Je suis à votre disposition si vous rechercher un alternant en developpement web.</p>
-                <a href="#" class="cv-btn">
+                <p>Mordu d'informatique depuis plus de 5 ans, je me spécialise dans le développement web au sein de l'école Webforce 3 à Paris. Je suis à votre disposition si vous rechercher un alternant en développement web.</p>
+                <a href="docs/CV-BALANDREAU-Arthur.pdf" class="cv-btn" target="_blank">
                     Curiculum Vitae
                 </a>
             </div>
@@ -74,7 +54,7 @@
                     <i class="devicon-devicon-plain"></i>
                 </div>
                 <h2>Front End</h2>
-                <p>Grace à mes competance en HTML5 et CSS, je peu donner vie à vos projets et les rendre responsive. Que ce soit en utilisant Bootstrap ou non.</p>
+                <p>Mes competences en HTML5 et CSS me permettent de donner vie à vos projets, tout en les rendant responsive. De plus je suis capable d'utiliser des frameworks tel que Bootstrap.</p>
             </div>
 
             <div class="box">
@@ -82,7 +62,7 @@
                     <i class="devicon-devicon-plain"></i>
                 </div>
                 <h2>Informatique</h2>
-                <p>Mes </p>
+                <p>Durant mon parcours scolaire, j'ai pu découvrir d'autre langage de programmation tel que le C# (que j'adore tout particulièrement) et le Python. </p>
             </div>
         </div>
 
@@ -92,34 +72,24 @@
                     <i class="devicon-devicon-plain"></i>
                 </div>
                 <h2>Backend</h2>
-                <p>Le monde du backend ne m'est pas inconnu, en effet je possède déjà quelque base en PHP et MYSQL. Connaissances qui seront approfondies lors de ma formation.</p>
+                <p>Le monde du backend ne m'est pas inconnu, en effet je possède déjà des bases en PHP et MYSQL. Connaissances qui seront approfondies lors de ma formation.</p>
             </div>
             
-
             <div class="box">
                 <div class="box-icon">
                     <i class="devicon-devicon-plain"></i>
                 </div>
                 <h2>En plus</h2>
-                <p>En plus de savoir coder, je suis capable d'utiliser les logiciels de bureautique tels que la suite office, le logiciel de versionnage git. Mais aussi des logiciels artistique comme figma, photoshop et blender.</p>
+                <p>En plus de savoir coder, je suis capable d'utiliser les logiciels de bureautique tels que la suite office, le logiciel de versionnage Git. Mais aussi des logiciels artistique comme figma, photoshop et blender.</p>
             </div>
         </div>
     </div>
 
-
-
-
-
+    .
 
 </main>
 
 
-<footer>
-
-    <p class="copyright-text">Copyright © 2021 All right reserved | Made with <img src="icons/favorite_border_white_24dp.svg" alt=""> by Balandreau Arthur</p>
-
-</footer>
-
-</body>
-
-</html>
+<?php
+include "inc/footer.inc.php";
+?>

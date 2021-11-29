@@ -99,9 +99,13 @@ nav a::after{
     background: var(--light-blue);
 }
 
-nav a:hover::after{
+nav a.active::after{
     width: 100%;
     transition: all 0.6s ease-in-out;
+}
+
+nav a:hover::after{
+    width: 100%;
 }
 
 .link-bar{
