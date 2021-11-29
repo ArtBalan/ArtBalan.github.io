@@ -10,6 +10,15 @@ include "inc/nav.inc.php";
     <main>
 
 
+        <div class="timeline-box">
+
+        </div>
+
+        <div class="timeline-box">
+
+        </div>
+
+
     </main>
 
 

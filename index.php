@@ -24,7 +24,7 @@ include "inc/header.inc.php";
         <div class="banner">
             <img src="img/profil-picture.png" alt="My ugly face">
             <div class="box">
-                <h1>Balandreau </h1>
+                <h1>Balandreau</h1>
                 <h1>Arthur</h1>
             </div>
         </div>

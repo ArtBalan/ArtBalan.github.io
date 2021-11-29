@@ -168,17 +168,6 @@ header .banner{
 
 .banner h1:nth-child(2){
     transform: translateX(-15px);
-}
-
-
-
-
-
-
-
-
-
-
 
 
 main{
@@ -464,4 +453,9 @@ p{
     to{
         transform: scale(1);
     }
-} 
+}
+
+
+/***************************/
+/* ABOUT                   */
+/***************************/
