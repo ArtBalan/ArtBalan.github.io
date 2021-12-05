@@ -1,5 +1,12 @@
+<div class="burger" id="burger">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
 <header class="secondpage">
-    <div class="bar">
+		
+    <div class="bar" id="bar">
         <div class=" logo"> ArtDev
         </div>
         <nav>

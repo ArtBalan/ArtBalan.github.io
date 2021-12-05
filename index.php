@@ -4,11 +4,17 @@ include "inc/init.inc.php";
 include "inc/header.inc.php";
 ?>
 <body>
+	<div class="burger" id="burger">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
 
     <!-- HEADER -->
     <header class="mainpage">
-        <div class="bar">
-            <div class=" logo"> ArtDev
+				    <div class="bar" id="bar">
+            <div class="logo"> ArtDev
             </div>
             <nav>
                 <a href="index.php" <?php echo ($currentPage == 'index.php')? "class='active'" : ""; ?> >Home</a>
@@ -22,7 +28,7 @@ include "inc/header.inc.php";
             </ul>
         </div>
         <div class="banner">
-            <img src="img/profil-picture.png" alt="My ugly face">
+           <!-- <img src="img/profil-picture.png" alt="My ugly face">-->
             <div class="box">
                 <h1>Balandreau</h1>
                 <h1>Arthur</h1>

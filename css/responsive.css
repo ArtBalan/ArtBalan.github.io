@@ -4,6 +4,21 @@ Tablette : between 600 and 1024 pixels (in portrait mode)
 Mobile : between 320 and 600 pixels (in portrait mode)
  */
 
+* {
+    --deep-purple:#100028;
+    --light-purple:#1a083d;
+
+    --light-blue: #00bfe7;
+
+
+    --dark-grey: #212529;
+    --light-gey: #2d3338;
+
+    --git-icon: #4078c0;
+    --linkedin-icon: #00a0dc;
+  }
+
+
  @media (max-width:320px)  {
     html, body{
         margin: 0;
@@ -191,5 +206,44 @@ Mobile : between 320 and 600 pixels (in portrait mode)
     }
 }
 
- @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
-}
+ @media (max-width:1300px) { /* big landscape tablets, laptops, and desktops */
+
+	 .bar{
+		 position: fixed;
+		 z-index: 10;
+		 padding: 0;
+		 top:0;
+		 width: 100%;
+		 transition: all 0.4s ease-in-out;
+		 transform: translateY(-120%);
+		 flex-direction: column;
+		background-color: var(--light-purple);
+	 }
+	 .bar nav{
+	  	flex-direction: column;
+			align-items: center;
+		}
+
+	 .bar nav a{
+		 width: fit-content;
+		 text-align: center;
+		 margin-top: 15px;
+	 }
+
+	 .link-bar {
+		 padding: 0;
+	 }
+	 .link-bar a{
+		 margin: 10px;
+	 }
+
+	 #burger{
+		 display: inline;  
+		 z-index: 100;
+	 }
+
+	 .show{
+		 transform: translateY(0);
+	 }
+
+ }
