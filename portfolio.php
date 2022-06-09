@@ -22,7 +22,7 @@ include 'inc/nav.inc.php';
         <div class="portfolio-box">
             <div class="portfolio-desc">
                 <h3>Trafalgar</h3>
-                <p>Simple page d'accueil. Template Figma trouvé sur le web, implémenté en HMTL/CSS "from sratch".</p>
+                <p>Simple page d'accueil. Template Figma trouvé sur le web, implémenté en HMTL/CSS "from scratch".</p>
                 <a href="exemples/trafalgar/index.html" target="_blank">Voir l'exemple</a>
             </div>
             <div class="portfolio-img">
@@ -31,8 +31,18 @@ include 'inc/nav.inc.php';
         </div>
         <div class="portfolio-box">
             <div class="portfolio-desc">
+                <h3>Words a day</h3>
+                <p>Outils en ligne permettant d'afficher des mots ainsi que leur définition en anglais. Frontend coder avec Bootstrap, le backend en javascript utilise deux API afin de choisir les mots au hasard, et trouver leur définition.</p>
+                <a href="exemples/Words-a-day/index.html" target="_blank">Voir l'exemple</a>
+            </div>
+            <div class="portfolio-img">
+                <img src="img/word-a-day.PNG" alt="Image du site Words a day">
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <div class="portfolio-desc">
                 <h3>Sport</h3>
-                <p>Exemple de site marchant réalisé au début de ma formation. Fait "from scratch" en HTML et CSS. (Template au format pdf fournis par l'école)</p>
+                <p>Exemple de site marchant réalisé au début de ma formation. Fait "from scratch" en HTML et CSS. (Template au format pdf fournis par l'école).</p>
                 <a href="exemples/sport/index.html" target="_blank">Voir l'exemple</a>
             </div>
             <div class="portfolio-img">

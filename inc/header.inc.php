@@ -19,7 +19,10 @@
         rel="stylesheet">
 
     <!-- Icon font -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+
+<!-- Prism css -->
+<link href="css/prism.css" rel="stylesheet" />
 
 
 </head>

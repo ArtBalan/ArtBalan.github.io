@@ -60,7 +60,7 @@ include "inc/header.inc.php";
                     <i class="devicon-devicon-plain"></i>
                 </div>
                 <h2>Front End</h2>
-                <p>Mes competences en HTML5 et CSS me permettent de donner vie à vos projets, tout en les rendant responsive. De plus je suis capable d'utiliser des frameworks tel que Bootstrap.</p>
+                <p>Mes compétences en HTML5 et CSS me permettent de donner vie à vos projets, tout en les rendant responsive. De plus je suis capable d'utiliser des frameworks tel que Bootstrap.</p>
             </div>
 
             <div class="box">
@@ -86,7 +86,7 @@ include "inc/header.inc.php";
                     <i class="devicon-devicon-plain"></i>
                 </div>
                 <h2>En plus</h2>
-                <p>En plus de savoir coder, je suis capable d'utiliser les logiciels de bureautique tels que la suite office, le logiciel de versionnage Git. Mais aussi des logiciels artistique comme figma, photoshop et blender.</p>
+                <p>En plus de savoir coder, je suis capable d'utiliser les logiciels de bureautique tels que la suite Office, le logiciel de versionnage Git. Mais aussi des logiciels artistiques comme Figma, Photoshop et Blender.</p>
             </div>
         </div>
     </div>
